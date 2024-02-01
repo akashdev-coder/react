@@ -17,7 +17,7 @@ function MainContent() {
 
                         <p>Beyond just treating illnesses, we emphasize preventive healthcare, encouraging a holistic approach to well-being. Our wellness programs and educational initiatives aim to empower you with the knowledge and tools to make informed decisions about your health. We understand the importance of open communication, and <strong>our healthcare professionals are here to listen</strong>, address your concerns, and work collaboratively with you on your healthcare journey. </p>
                     </div>
-                    <div className="col-12 col-md-4 test">
+                    <div className="col-12 col-md-4">
                         <img src={images} className="img-fluid" alt="images" />
                     </div>
                 </div>
