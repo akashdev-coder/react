@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './Header';
-import MainContent from './Main';
-import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AppContainer from './pages/AppContainer';
 
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
@@ -20,14 +19,14 @@ import Footer from './Footer';
 // // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
 
-function MyApp() {
-  return (
-    <div className='container-fluid'>
-      <Header />
-        <MainContent />
-      <Footer />
-    </div>
-  )
-}
+// function MyApp() {
+//   return (
+//     <div className='container-fluid'>
+//       <Header />
+//         <App />
+//       <Footer />
+//     </div>
+//   )
+// }
 
-ReactDOM.render(<MyApp />, document.getElementById("root"))
+ReactDOM.render(<AppContainer />, document.getElementById('root'));
